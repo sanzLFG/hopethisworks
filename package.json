@@ -1,0 +1,31 @@
+{
+    "name": "pubmed-twitter-bot",
+    "version": "1.0.0",
+    "description": "Twitter bot that summarizes medical research in a Gen-Z style",
+    "main": "index.js",
+    "scripts": {
+      "start": "ts-node index.ts",
+      "build": "tsc",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+      "pubmed",
+      "ai",
+      "medical",
+      "research",
+      "twitter",
+      "bot"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.6.2",
+      "dotenv": "^16.3.1",
+      "twitter-api-v2": "^1.15.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20.10.0",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.3.2"
+    }
+  }
